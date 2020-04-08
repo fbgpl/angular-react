@@ -1,6 +1,6 @@
 {
-  "name": "angular-react",
-  "version": "0.0.1",
+  "name": "@fbgpl/angular-react",
+  "version": "0.7.5",
   "peerDependencies": {
     "@angular/common": "^9.1.0",
     "@angular/core": "^9.1.0",
@@ -9,5 +9,17 @@
   "dependencies": {
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fbgpl/angular-react.git",
+    "directory": "packages/common"
+  },
+  "author": {
+    "name": "medi71"
+  },
+  "bugs": {
+    "url": "https://github.com/fbgpl/angular-react/issues"
+  },
+  "license": "MIT"
 }
