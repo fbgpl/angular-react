@@ -1,8 +1,8 @@
-import { Component } from '@angular/core';
-import { ReactTest } from './ReactTest';
+import { Component } from "@angular/core";
+import { ReactTest } from "./ReactTest";
 
 @Component({
-  selector: 'app-root',
+  selector: "app-root",
   template: `
     <react-component
       [component]="getComponent()"
@@ -17,6 +17,6 @@ export class AppComponent {
   }
 
   getProps() {
-    return { handleClick: () => console.warn('Clicked!') };
+    return { handleClick: () => console.warn("Clicked!") };
   }
 }

@@ -84,3 +84,16 @@ export const ReactTest = (props) => {
   );
 };
 ```
+
+## Notice
+
+Unfortunately, ngcc doesn't support this lib. Still waiting for a solution. If you are using Ivy in your project you have to consider disable ngcc by adding the following lines in your `tsconfig.json` file.
+
+```js
+{
+    //...,
+    "angularCompilerOptions": {
+      "enableIvy": false
+    }
+}
+```
